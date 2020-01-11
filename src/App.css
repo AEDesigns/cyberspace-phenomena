@@ -1,0 +1,12 @@
+.typewriter h1 {
+  text-align: center;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: orange !important;
+}
