@@ -34,7 +34,7 @@ export default class Services extends React.Component {
           <br />
           <Container>
             <Row>
-              <Col>
+              <Col className="col-sm-12 col-md-12 col-lg-4">
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
@@ -58,7 +58,7 @@ export default class Services extends React.Component {
                   </Card.Footer>
                 </Card>
               </Col>
-              <Col>
+              <Col className="col-sm-12 col-md-12 col-lg-4">
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
@@ -82,7 +82,7 @@ export default class Services extends React.Component {
                 </Card>
               </Col>
 
-              <Col>
+              <Col className="col-sm-12 col-md-12 col-lg-4">
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
@@ -109,7 +109,7 @@ export default class Services extends React.Component {
             </Row>
             <br />
             <Row>
-              <Col>
+              <Col className="col-sm-12 col-md-12 col-lg-4">
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
@@ -128,7 +128,7 @@ export default class Services extends React.Component {
                   </Card.Footer>
                 </Card>
               </Col>
-              <Col>
+              <Col className="col-sm-12 col-md-12 col-lg-4">
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
@@ -143,7 +143,7 @@ export default class Services extends React.Component {
                   </Card.Footer>
                 </Card>
               </Col>
-              <Col>
+              <Col className="col-sm-12 col-md-12 col-lg-4">
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
