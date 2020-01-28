@@ -18,9 +18,7 @@ export default class Services extends React.Component {
     return (
       <div>
         <Jumbotron>
-          <Display4 className="text-center">
-            Scrybe Digital specializes in:
-          </Display4>
+          <Display4 className="text-center">Æ Designs specializes in:</Display4>
           <Lead>
             <Typing />
           </Lead>
@@ -41,15 +39,11 @@ export default class Services extends React.Component {
                     <Card.Title>Website Design & Development</Card.Title>
                     <Card.Text>
                       <p>
-                        Your website is your digital address, and much like your
-                        physical address, it needs to be up to snuff to attract
-                        customers.
-                      </p>
-                      <p>
-                        We'll sit down with you and discuss your wants and
-                        needs, while also providing as a guide to ensure your
-                        website is not only visually appealing but also ADA
-                        Compliant and secure.
+                        Now-a-days, a business needing a website is an absolute
+                        must and I'm here to guide you through that process. As
+                        an expert in my field, I can design and build a website
+                        that flows naturally and converts potential customers
+                        into revenue.
                       </p>
                     </Card.Text>
                   </Card.Body>
@@ -62,64 +56,14 @@ export default class Services extends React.Component {
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
-                    <Card.Title>Custom Development</Card.Title>
-                    <Card.Text>
-                      <p>
-                        Do you have an idea that may just be the next Youtube,
-                        airBNB or Facebook but not sure where to begin or you
-                        need an extra set of hands?
-                      </p>
-                      <p>
-                        Our developers can help! Our expert developers can help
-                        you design and develop your program using the latest
-                        cutting edge technologies and design principles!
-                      </p>
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Footer>
-                    <Link to="/development">Learn how we can help</Link>
-                  </Card.Footer>
-                </Card>
-              </Col>
-
-              <Col className="col-sm-12 col-md-12 col-lg-4">
-                <Card style={{ width: "18rem" }}>
-                  <Card.Image src={img_src} />
-                  <Card.Body>
-                    <Card.Title>Email Marketing</Card.Title>
-                    <Card.Text>
-                      <p>
-                        So you've built up a client base and business is
-                        booming. What's next?
-                      </p>
-                      <p>
-                        Now, we need to keep in contact with our clients so they
-                        get the latest and greatest news and products you have
-                        to offer! We can help with that by developing emails
-                        that are not only mobile responsive, but also look great
-                        on <em>ANY</em> email client.
-                      </p>
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Footer>
-                    <Card.Link href="#">Card Link</Card.Link>
-                  </Card.Footer>
-                </Card>
-              </Col>
-            </Row>
-            <br />
-            <Row>
-              <Col className="col-sm-12 col-md-12 col-lg-4">
-                <Card style={{ width: "18rem" }}>
-                  <Card.Image src={img_src} />
-                  <Card.Body>
                     <Card.Title>SEO</Card.Title>
                     <Card.Text>
-                      <p>Search Engine Optimization is our bread and butter.</p>
                       <p>
-                        We can help improve your standing with Google by
-                        tactical and creative content, linking and ensuring your
-                        website is built to maximize all of the above.
+                        Your digital presence being found is the lifeblood of
+                        your business, especially when considering that 15% of
+                        all business is currently done on the web. So being
+                        found on Google and other search engines is an absolute
+                        MUST, and I'm here to help with that.
                       </p>
                     </Card.Text>
                   </Card.Body>
@@ -132,25 +76,16 @@ export default class Services extends React.Component {
                 <Card style={{ width: "18rem" }}>
                   <Card.Image src={img_src} />
                   <Card.Body>
-                    <Card.Title>Social Media Marketing</Card.Title>
+                    <Card.Title>ADA Compliance </Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Footer>
-                    <Card.Link href="#">Card Link</Card.Link>
-                  </Card.Footer>
-                </Card>
-              </Col>
-              <Col className="col-sm-12 col-md-12 col-lg-4">
-                <Card style={{ width: "18rem" }}>
-                  <Card.Image src={img_src} />
-                  <Card.Body>
-                    <Card.Title>Consulting</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      <p></p>
+                      <p>
+                        Today everyone can access the web and ensuring your
+                        website can be navigated by individuals who may have
+                        disabilities is not only the right thing to do, it's the
+                        law. Our projects follow ADA AA Compliance standards,
+                        meaning a seamless experience for all.
+                      </p>
                     </Card.Text>
                   </Card.Body>
                   <Card.Footer>
