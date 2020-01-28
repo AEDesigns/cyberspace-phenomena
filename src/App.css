@@ -10,3 +10,39 @@
   text-decoration: underline;
   color: orange !important;
 }
+
+/* Call To Action Styles */
+
+.Call-To-Action {
+  height: 13vh;
+  width: 100vw;
+  background-color: #7851a9;
+  text-align: center;
+}
+
+.cta-header {
+  text-align: center;
+  color: white;
+}
+
+/* Footer Styles */
+
+.footer-style {
+  text-align: center;
+}
+
+.ul-styles {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 321px) {
+  .Call-To-Action {
+    height: 20vh;
+    width: 100vw;
+    background-color: #7851a9;
+    text-align: center;
+  }
+}

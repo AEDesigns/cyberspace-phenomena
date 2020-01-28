@@ -10,7 +10,7 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               src={require("../Imgs/Scrybe.jpg")}
               width="200"

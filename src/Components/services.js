@@ -4,6 +4,8 @@ import "../App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Jumbotron, Display4, Lead } from "bootstrap-4-react";
 import Typing from "./typing";
+import CallToAction from "./CallToAction";
+import Footer from "./Footer";
 
 const img_src =
   "data:image/svg+xml;charset=UTF-8," +
@@ -97,6 +99,8 @@ export default class Services extends React.Component {
           </Container>
         </section>
         <br />
+        <CallToAction />
+        <Footer />
       </div>
     );
   }
