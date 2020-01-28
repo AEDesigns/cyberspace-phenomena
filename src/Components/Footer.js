@@ -20,7 +20,7 @@ function Footer() {
             </Col>
             <Col className="col-sm-12 col-md-12 col-lg-5">
               <p>Proudly Serving:</p>
-              <ul className="float-left ul-styles">
+              <ul className="ul-styles">
                 <li>
                   <a href="#">Nashville</a>
                 </li>
@@ -36,8 +36,6 @@ function Footer() {
                 <li>
                   <a href="#">Hendersonville</a>
                 </li>
-              </ul>
-              <ul className="float-right ul-styles">
                 <li>
                   <a href="#">Brentwood</a>
                 </li>
@@ -62,11 +60,7 @@ function Footer() {
                   aedevdesigns@gmail.com
                 </a>
               </p>
-              <Row className="footer-style">
-                <p>1</p>
-                <p>1</p>
-                <p>1</p>
-              </Row>
+              <p>1</p>
             </Col>
           </Row>
         </Container>
