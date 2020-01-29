@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -8,12 +8,12 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand>
             <img
-              src={require("../Imgs/Scrybe.jpg")}
+              src={require("../Imgs/white-logo-svg.svg")}
               width="200"
-              height="100"
+              height="auto"
               className="d-inline-block align-top"
               alt="Scrybe Digital Marketing"
             />

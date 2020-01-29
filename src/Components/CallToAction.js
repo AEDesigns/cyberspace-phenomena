@@ -7,7 +7,7 @@ function CallToAction() {
     <div>
       <div className="Call-To-Action">
         <h3 className="cta-header">Contact Us Today for a Free Consultation</h3>
-        <Button variant="success" size="lg">
+        <Button variant="success" className="mx-auto">
           Lets Connect!
         </Button>
       </div>

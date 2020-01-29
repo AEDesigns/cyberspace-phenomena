@@ -2,13 +2,19 @@
   text-align: center;
 }
 
+/* Nav Styles */
 .nav-link {
-  color: grey;
+  color: white !important;
+  font-size: 20px !important;
 }
 
 .nav-link:hover {
   text-decoration: underline;
   color: orange !important;
+}
+
+.jmbo-style {
+  color: white !important;
 }
 
 /* Call To Action Styles */

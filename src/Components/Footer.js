@@ -2,7 +2,12 @@ import React from "react";
 import "../App.css";
 import { Container, Row, Col } from "bootstrap-4-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  fab,
+  faTwitter,
+  faGithub,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -13,14 +18,14 @@ function Footer() {
           <Row>
             <Col className="col-sm-12 col-md-12 col-lg-3">
               <img
-                src={require("../Imgs/E.svg")}
-                width="200"
-                height="100"
+                src={require("../Imgs/black-logo-svg.svg")}
+                width="300"
+                height="200"
                 className="d-inline-block align-top"
                 alt="A E Desgins"
               />
             </Col>
-            <Col className="col-sm-12 col-md-12 col-lg-5">
+            <Col className="col-sm-12 col-md-12 col-lg-5 mx-auto">
               <p>Proudly Serving:</p>
               <ul className="ul-styles">
                 <li>
@@ -66,8 +71,14 @@ function Footer() {
                 <a href="https://twitter.com/Kr4knB8" className="pr-1">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
-                <a href="https://github.com/AEDesigns?tab=repositories">
+                <a
+                  href="https://github.com/AEDesigns?tab=repositories"
+                  className="pr-1"
+                >
                   <FontAwesomeIcon icon={faGithub} size="2x" />
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-elliott-501008163/">
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </Container>
             </Col>

@@ -9,22 +9,31 @@ import Footer from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGoogle, faAccessibleIcon } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import jumboImg from "../Components/jumboImg.jpg";
 
 export default class Services extends React.Component {
   render() {
     return (
       <div>
-        <Jumbotron>
-          <Display4 className="text-center">Æ Designs specializes in:</Display4>
+        <Jumbotron
+          fluid
+          style={{
+            backgroundImage: `url(${jumboImg})`,
+            backgroundSize: "cover"
+          }}
+        >
+          <Display4 className="text-center jmbo-style">
+            Æ Designs specializes in:
+          </Display4>
           <Lead>
             <Typing />
           </Lead>
           <hr className="my-4" />
-          <p className="text-center">
+          <p className="text-center jmbo-style">
             Find out below how we can help your business grow!
           </p>
         </Jumbotron>
-        <h2 className="text-center">What we have to offer:</h2>
+        <h2 className="text-center ">What we have to offer:</h2>
         <section className="services">
           <br />
           <Container>

@@ -26,7 +26,7 @@ const FirstProjectModal = () => {
                 className="d-block w-100"
                 src={require("../../Imgs/lathrop-Home-screen-1.png")}
                 width="1000"
-                height="600"
+                height="auto"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -35,7 +35,7 @@ const FirstProjectModal = () => {
                 className="d-block w-100"
                 src={require("../../Imgs/Lathrop-home-screen-2.png")}
                 width="1000"
-                height="600"
+                height="auto"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -44,7 +44,7 @@ const FirstProjectModal = () => {
                 className="d-block w-100"
                 src={require("../../Imgs/Lathrop-home-screen-3.png")}
                 width="1000"
-                height="600"
+                height="auto"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -53,7 +53,7 @@ const FirstProjectModal = () => {
                 className="d-block w-100"
                 src={require("../../Imgs/Lathrop-home-screen-4.png")}
                 width="1000"
-                height="600"
+                height="auto"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -62,7 +62,7 @@ const FirstProjectModal = () => {
                 className="d-block w-100"
                 src={require("../../Imgs/lathrop-about-1.png")}
                 width="1000"
-                height="600"
+                height="auto"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -71,7 +71,7 @@ const FirstProjectModal = () => {
                 className="d-block w-100"
                 src={require("../../Imgs/lathrop-about-2.png")}
                 width="1000"
-                height="600"
+                height="auto"
                 alt="First slide"
               />
             </Carousel.Item>
@@ -80,7 +80,7 @@ const FirstProjectModal = () => {
                 className="d-block w-100"
                 src={require("../../Imgs/lathrop-serving.png")}
                 width="1000"
-                height="600"
+                height="auto"
                 alt="First slide"
               />
             </Carousel.Item>
