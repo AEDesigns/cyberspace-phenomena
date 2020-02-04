@@ -4,10 +4,10 @@ import Button from "react-bootstrap/Button";
 
 function CallToAction() {
   return (
-    <div>
+    <div className="cont-div">
       <div className="Call-To-Action">
-        <h3 className="cta-header">Contact Us Today for a Free Consultation</h3>
-        <Button variant="success" className="mx-auto">
+        <h3 className="cta-header">Contact Me Today for a Free Consultation</h3>
+        <Button variant="success" className="mx-auto cta-btn">
           Lets Connect!
         </Button>
       </div>

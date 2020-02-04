@@ -18,7 +18,7 @@ const FirstProjectModal = () => {
       <button variant="primary" onClick={showModal}>
         Views of Lathropinsurance.com
       </button>
-      <Modal show={isOpen} onHide={hideModal}>
+      <Modal show={isOpen} onHide={hideModal} dialogClassName="modal-90vw">
         <Modal.Body>
           <Carousel>
             <Carousel.Item>

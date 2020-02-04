@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Card, Container, Row, Col } from "bootstrap-4-react";
 import "../App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -30,10 +30,10 @@ export default class Services extends React.Component {
           </Lead>
           <hr className="my-4" />
           <p className="text-center jmbo-style">
-            Find out below how we can help your business grow!
+            Find out below how I can help your business grow!
           </p>
         </Jumbotron>
-        <h2 className="text-center ">What we have to offer:</h2>
+        <h2 className="text-center services">What I have to offer:</h2>
         <section className="services">
           <br />
           <Container>
@@ -105,7 +105,7 @@ export default class Services extends React.Component {
                         Today everyone can access the web and ensuring your
                         website can be navigated by individuals who may have
                         disabilities is not only the right thing to do, it's the
-                        law. Our projects follow ADA AA Compliance standards,
+                        law. My projects follow ADA AA Compliance standards,
                         meaning a seamless experience for all.
                       </p>
                     </Card.Text>

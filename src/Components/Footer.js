@@ -16,52 +16,8 @@ function Footer() {
         <br />
         <Container>
           <Row>
-            <Col className="col-sm-12 col-md-12 col-lg-3">
-              <img
-                src={require("../Imgs/black-logo-svg.svg")}
-                width="300"
-                height="200"
-                className="d-inline-block align-top"
-                alt="A E Desgins"
-              />
-            </Col>
-            <Col className="col-sm-12 col-md-12 col-lg-5 mx-auto">
-              <p>Proudly Serving:</p>
-              <ul className="ul-styles">
-                <li>
-                  <a href="#">Nashville</a>
-                </li>
-                <li>
-                  <a href="#">Murfreesboro</a>
-                </li>
-                <li>
-                  <a href="#">Hermitage</a>
-                </li>
-                <li>
-                  <a href="#">Mount Juliet</a>
-                </li>
-                <li>
-                  <a href="#">Hendersonville</a>
-                </li>
-                <li>
-                  <a href="#">Brentwood</a>
-                </li>
-                <li>
-                  <a href="#">Franklin</a>
-                </li>
-                <li>
-                  <a href="#">Cookeville</a>
-                </li>
-                <li>
-                  <a href="#">Chattanooga</a>
-                </li>
-                <li>
-                  <a href="#">Clarksville</a>
-                </li>
-              </ul>
-            </Col>
             <Col className="col-sm-12 col-md-12 col-lg-4">
-              <p>Contact Me: </p>
+              <p className="services">Contact Me: </p>
               <p>
                 <a href="mailto:aedevdesigns@gmail.com?subject=Let's Connect!">
                   aedevdesigns@gmail.com
@@ -81,6 +37,44 @@ function Footer() {
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </Container>
+            </Col>
+            <Col className="col-sm-12 col-md-12 col-lg-4">
+              <img
+                src={require("../Imgs/white-logo-svg.svg")}
+                width="200"
+                height="auto"
+                className="d-inline-block align-top"
+                alt="A E Desgins"
+              />
+            </Col>
+            <Col className="col-sm-12 col-md-12 col-lg-4 mx-auto">
+              <p className="services">Proudly Serving:</p>
+              <ul className="ul-styles mx-auto text-center">
+                <li>
+                  <a href="#">Nashville</a>
+                </li>
+                <li>
+                  <a href="#">The 'Boro</a>
+                </li>
+                <li>
+                  <a href="#">Mt. Juliet</a>
+                </li>
+                <li>
+                  <a href="#">Brentwood</a>
+                </li>
+                <li>
+                  <a href="#">Franklin</a>
+                </li>
+                <li>
+                  <a href="#">Cookeville</a>
+                </li>
+                <li>
+                  <a href="#">Chattanooga</a>
+                </li>
+                <li>
+                  <a href="#">Clarksville</a>
+                </li>
+              </ul>
             </Col>
           </Row>
         </Container>

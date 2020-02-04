@@ -21,7 +21,7 @@ TxtType.prototype.tick = function() {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+  this.el.innerHTML = '<span class="wrap type-letter">' + this.txt + "</span>";
 
   var that = this;
   var delta = 200 - Math.random() * 100;
@@ -56,7 +56,7 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #6a0dad}";
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid white}";
   document.body.appendChild(css);
 };
 

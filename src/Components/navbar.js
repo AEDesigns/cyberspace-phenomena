@@ -25,10 +25,10 @@ export default class Navigation extends React.Component {
                 <div className="nav-link">Home</div>
               </Link>
               <Link to="/design-and-dev">
-                <div className="nav-link">Our Works</div>
+                <div className="nav-link">My Works</div>
               </Link>
               <Link to="/contact">
-                <div className="nav-link">Contact Us</div>
+                <div className="nav-link">Contact Me</div>
               </Link>
             </Nav>
           </Navbar.Collapse>

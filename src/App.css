@@ -1,10 +1,20 @@
+/* General Styles */
+.services {
+  color: #9B30FF
+}
+
+/* Typewriter Styles */
 .typewriter h1 {
   text-align: center;
 }
 
+.type-letter {
+  color: white;
+}
+
 /* Nav Styles */
 .nav-link {
-  color: white !important;
+  color: #9B30FF !important;
   font-size: 20px !important;
 }
 
@@ -21,14 +31,22 @@
 
 .Call-To-Action {
   height: 13vh;
-  width: 100vw;
+  width: 90vw;
   background-color: #7851a9;
-  text-align: center;
+  display: inline-block;
+}
+
+.cont-div {
+  text-align: center
 }
 
 .cta-header {
   text-align: center;
   color: white;
+}
+
+.cta-btn {
+  background-color: orange !important;
 }
 
 /* Footer Styles */
