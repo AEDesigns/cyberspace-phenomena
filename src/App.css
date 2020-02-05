@@ -47,6 +47,14 @@
 
 .cta-btn {
   background-color: orange !important;
+  border: 1px solid orange;
+  border-radius: 8px;
+}
+
+/* Work Components styles */
+
+.working-txt {
+  color: white;
 }
 
 /* Footer Styles */

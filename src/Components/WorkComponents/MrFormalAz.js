@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row, Container } from "bootstrap-4-react";
-import FirstProjectModal from "../ModalComponents/FirstProject";
+import SecondProjectModal from "../ModalComponents/SecondProj";
 
-export default class LathropInsurance extends React.Component {
+export default class MrFormalAz extends React.Component {
   render() {
     return (
       <div>
@@ -10,16 +10,16 @@ export default class LathropInsurance extends React.Component {
           <Row>
             <Col className="col-sm-12 col-md-12 col-lg-6">
               <a
-                href="https://lathropinsurance.com"
+                href="https://mrformalaz.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={require("../../Imgs/Lathrop-logo.png")}
+                  src={require("../../Imgs/mrFormalAz/mrFormalAz-logo.png")}
                   width="400"
                   height="200"
                   className="d-inline-block align-top"
-                  alt="Lathrop Insurance"
+                  alt="Mr Formal Arizona"
                 />
               </a>
             </Col>
@@ -34,7 +34,7 @@ export default class LathropInsurance extends React.Component {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <br />
-              <FirstProjectModal />
+              <SecondProjectModal />
             </Col>
           </Row>
         </Container>

@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Carousel from "react-bootstrap/Carousel";
 
-const FirstProjectModal = () => {
+const SecondProjectModal = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const showModal = () => {
@@ -16,7 +16,7 @@ const FirstProjectModal = () => {
   return (
     <>
       <button variant="primary" onClick={showModal} className="cta-btn">
-        Views of Lathropinsurance.com
+        Views of MrFormalAz.com
       </button>
       <Modal show={isOpen} onHide={hideModal} dialogClassName="modal-90vw">
         <Modal.Body>
@@ -24,7 +24,7 @@ const FirstProjectModal = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../Imgs/lathrop-Home-screen-1.png")}
+                src={require("../../Imgs/mrFormalAz/home-screen-1.png")}
                 width="1000"
                 height="auto"
                 alt="First slide"
@@ -33,7 +33,7 @@ const FirstProjectModal = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../Imgs/Lathrop-home-screen-2.png")}
+                src={require("../../Imgs/mrFormalAz/home-screen-2.png")}
                 width="1000"
                 height="auto"
                 alt="First slide"
@@ -42,7 +42,7 @@ const FirstProjectModal = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../Imgs/Lathrop-home-screen-3.png")}
+                src={require("../../Imgs/mrFormalAz/home-screen-3.png")}
                 width="1000"
                 height="auto"
                 alt="First slide"
@@ -51,7 +51,7 @@ const FirstProjectModal = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../Imgs/Lathrop-home-screen-4.png")}
+                src={require("../../Imgs/mrFormalAz/home-screen-4.png")}
                 width="1000"
                 height="auto"
                 alt="First slide"
@@ -60,7 +60,7 @@ const FirstProjectModal = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../Imgs/lathrop-about-1.png")}
+                src={require("../../Imgs/mrFormalAz/tux-1.png")}
                 width="1000"
                 height="auto"
                 alt="First slide"
@@ -69,7 +69,7 @@ const FirstProjectModal = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../Imgs/lathrop-about-2.png")}
+                src={require("../../Imgs/mrFormalAz/tux-2.png")}
                 width="1000"
                 height="auto"
                 alt="First slide"
@@ -78,7 +78,7 @@ const FirstProjectModal = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("../../Imgs/lathrop-serving.png")}
+                src={require("../../Imgs/mrFormalAz/tux-3.png")}
                 width="1000"
                 height="auto"
                 alt="First slide"
@@ -96,4 +96,4 @@ const FirstProjectModal = () => {
   );
 };
 
-export default FirstProjectModal;
+export default SecondProjectModal;
