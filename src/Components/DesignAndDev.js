@@ -4,6 +4,7 @@ import { Jumbotron, Display4, Col, Row, Container } from "bootstrap-4-react";
 import LathropInsurance from "./WorkComponents/Lathrop";
 import MrFormalAz from "./WorkComponents/MrFormalAz";
 import LottzProp from "./WorkComponents/LottzProp";
+import Interstudy from "./WorkComponents/Interstudy";
 
 function DesignAndDev() {
   return (
@@ -29,6 +30,13 @@ function DesignAndDev() {
         <Col>
           <Row>
             <LottzProp />
+          </Row>
+        </Col>
+      </Container>
+      <Container className="mt-2">
+        <Col>
+          <Row>
+            <Interstudy />
           </Row>
         </Col>
       </Container>

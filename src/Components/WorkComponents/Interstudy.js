@@ -1,34 +1,34 @@
 import React from "react";
 import { Col, Row, Container } from "bootstrap-4-react";
 
-export default class LottzProp extends React.Component {
+export default class Interstudy extends React.Component {
   render() {
     return (
       <div>
         <Container>
-          <h2 className="text-center">Lottz Properties - Middle, TN</h2>
+          <h2 className="text-center">Interstudy - Franklin, Tn</h2>
           <Row>
             <Col className="col-sm-12 col-md-12 col-lg-6">
               <img
-                src={require("../../Imgs/Lottz/Lottz Properties_v2.svg")}
+                src={require("../../Imgs/Interstudy/Interstudy_Logo_Horizontal.png")}
                 width="400"
-                height="200"
+                height="auto"
                 className="d-inline-block align-top"
-                alt="Lottz Properties"
+                alt="Interstudy"
               />
               <img
-                src={require("../../Imgs/Lottz/home-1.png")}
+                src={require("../../Imgs/Interstudy/Home-screen-1.PNG")}
                 width="400"
                 height="200"
                 className="d-inline-block align-top mt-4"
-                alt="Lottz Properties Home Page"
+                alt="Interstudy Home Page"
               />
               <img
-                src={require("../../Imgs/Lottz/home-2.png")}
+                src={require("../../Imgs/Interstudy/home-screen-2.PNG")}
                 width="400"
                 height="200"
                 className="d-inline-block align-top mt-4"
-                alt="Lottz Properties Home Page"
+                alt="Interstudy Contact Form"
               />
             </Col>
             <Col className="col-sm-12 col-md-12 col-lg-6">
@@ -59,13 +59,6 @@ export default class LottzProp extends React.Component {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <a
-                href="https://lottzproperties.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit Lottz Properties
-              </a>
             </Col>
           </Row>
         </Container>
