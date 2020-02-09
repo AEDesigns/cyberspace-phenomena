@@ -13,21 +13,21 @@ export default class LottzProp extends React.Component {
                 src={require("../../Imgs/Lottz/Lottz Properties_v2.svg")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top img-responsive"
                 alt="Lottz Properties"
               />
               <img
                 src={require("../../Imgs/Lottz/home-1.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="Lottz Properties Home Page"
               />
               <img
                 src={require("../../Imgs/Lottz/home-2.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="Lottz Properties Home Page"
               />
             </Col>

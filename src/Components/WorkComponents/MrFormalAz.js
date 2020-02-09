@@ -13,21 +13,21 @@ export default class MrFormalAz extends React.Component {
                 src={require("../../Imgs/mrFormalAz/A-LOGO.png")}
                 width="400"
                 height="auto"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top img-responsive"
                 alt="Mr Formal Arizona"
               />
               <img
                 src={require("../../Imgs/mrFormalAz/home-screen-1.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="Mr Formal Arizona Home Page"
               />
               <img
                 src={require("../../Imgs/mrFormalAz/our-story.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="Mr Formal Arizona Our Story Page"
               />
             </Col>

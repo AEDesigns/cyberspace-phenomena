@@ -13,25 +13,25 @@ export default class LathropInsurance extends React.Component {
                 src={require("../../Imgs/Lathrop-logo.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
-                alt="Lathrop Insurance Home Page"
+                className="d-inline-block align-top mt-4 img-responsive"
+                alt="Lathrop Insurance Logo"
               />
               <img
                 src={require("../../Imgs/Lathrop-home-screen-2.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="Lathrop Insurance Services On Home Page"
               />
               <img
                 src={require("../../Imgs/lathrop-serving.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="Lathrop Insurance Services Page"
               />
             </Col>
-            <Col className="col-sm-12 col-md-12 col-lg-6">
+            <Col className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

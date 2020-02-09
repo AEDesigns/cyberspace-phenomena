@@ -18,7 +18,7 @@ function Footer() {
           <Row>
             <Col className="col-sm-12 col-md-12 col-lg-4">
               <p className="services">Contact Me: </p>
-              <p>PH: (615)669-5552‬</p>
+              <p className="services">PH: (615)669-5552‬</p>
               <p>
                 <a href="mailto:aedevdesigns@gmail.com?subject=Let's Connect!">
                   aedevdesigns@gmail.com

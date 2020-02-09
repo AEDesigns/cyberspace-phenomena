@@ -13,21 +13,21 @@ export default class Interstudy extends React.Component {
                 src={require("../../Imgs/Interstudy/Interstudy_Logo_Horizontal.png")}
                 width="400"
                 height="auto"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top img-responsive"
                 alt="Interstudy"
               />
               <img
                 src={require("../../Imgs/Interstudy/Home-screen-1.PNG")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="Interstudy Home Page"
               />
               <img
                 src={require("../../Imgs/Interstudy/home-screen-2.PNG")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-fluid"
                 alt="Interstudy Contact Form"
               />
             </Col>

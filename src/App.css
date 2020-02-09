@@ -61,7 +61,7 @@
 
 .footer-style {
   text-align: center;
-  background-color: grey;
+  background-color: #343a40;
 }
 
 .ul-styles {
@@ -74,6 +74,24 @@
 /* Mobile Styles */
 
 @media only screen and (max-width: 321px) {
+  .Call-To-Action {
+    height: 20vh;
+    width: 100vw;
+    background-color: #7851a9;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Call-To-Action {
+    height: 20vh;
+    width: 100vw;
+    background-color: #7851a9;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 426px) {
   .Call-To-Action {
     height: 20vh;
     width: 100vw;

@@ -11,17 +11,17 @@ export default class AeDesigns extends React.Component {
           <Row>
             <Col className="col-sm-12 col-md-12 col-lg-6">
               <img
-                src={require("../../Imgs/E.svg")}
+                src={require("../../Imgs/black-logo-svg.svg")}
                 width="400"
-                height="300"
-                className="d-inline-block align-top"
+                height="auto"
+                className="d-inline-block align-top img-responsive"
                 alt="A E Designs"
               />
               <img
                 src={require("../../Imgs/aeDes/home-screen-1.PNG")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4"
+                className="d-inline-block align-top mt-4 img-responsive"
                 alt="A E Designs Home Page"
               />
             </Col>
