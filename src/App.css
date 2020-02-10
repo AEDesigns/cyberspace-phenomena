@@ -3,6 +3,14 @@
   color: #9B30FF
 }
 
+.nav-div {
+  max-width: 100%;
+}
+
+.hov-img:hover {
+  transform: scale(1.5)
+}
+
 /* Typewriter Styles */
 .typewriter h1 {
   text-align: center;
@@ -80,6 +88,10 @@
     background-color: #7851a9;
     text-align: center;
   }
+
+  .nav-div {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -89,6 +101,10 @@
     background-color: #7851a9;
     text-align: center;
   }
+
+  .nav-div {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -97,5 +113,9 @@
     width: 100vw;
     background-color: #7851a9;
     text-align: center;
+  }
+
+  .nav-div {
+    max-width: 100%;
   }
 }

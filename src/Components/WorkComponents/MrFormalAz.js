@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "bootstrap-4-react";
+import "../../App";
 
 export default class MrFormalAz extends React.Component {
   render() {
@@ -20,15 +21,15 @@ export default class MrFormalAz extends React.Component {
                 src={require("../../Imgs/mrFormalAz/home-screen-1.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4 img-responsive"
+                className="d-inline-block align-top mt-4 img-responsive hov-img"
                 alt="Mr Formal Arizona Home Page"
               />
               <img
-                src={require("../../Imgs/mrFormalAz/our-story.png")}
+                src={require("../../Imgs/mrFormalAz/tux-2.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4 img-responsive"
-                alt="Mr Formal Arizona Our Story Page"
+                className="d-inline-block align-top mt-4 img-responsive hov-img"
+                alt="Mr Formal Arizona Tuxedo Page"
               />
             </Col>
             <Col className="col-sm-12 col-md-12 col-lg-6">

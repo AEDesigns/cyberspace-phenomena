@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "bootstrap-4-react";
+import "../../App";
 
 export default class LottzProp extends React.Component {
   render() {
@@ -20,14 +21,14 @@ export default class LottzProp extends React.Component {
                 src={require("../../Imgs/Lottz/home-1.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4 img-responsive"
+                className="d-inline-block align-top mt-4 img-responsive hov-img"
                 alt="Lottz Properties Home Page"
               />
               <img
                 src={require("../../Imgs/Lottz/home-2.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4 img-responsive"
+                className="d-inline-block align-top mt-4 img-responsive hov-img"
                 alt="Lottz Properties Home Page"
               />
             </Col>

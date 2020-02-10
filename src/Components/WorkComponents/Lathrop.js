@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "bootstrap-4-react";
+import "../../App";
 
 export default class LathropInsurance extends React.Component {
   render() {
@@ -20,14 +21,14 @@ export default class LathropInsurance extends React.Component {
                 src={require("../../Imgs/Lathrop-home-screen-2.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4 img-responsive"
+                className="d-inline-block align-top mt-4 img-responsive hov-img"
                 alt="Lathrop Insurance Services On Home Page"
               />
               <img
                 src={require("../../Imgs/lathrop-serving.png")}
                 width="400"
                 height="200"
-                className="d-inline-block align-top mt-4 img-responsive"
+                className="d-inline-block align-top mt-4 img-responsive hov-img"
                 alt="Lathrop Insurance Services Page"
               />
             </Col>
