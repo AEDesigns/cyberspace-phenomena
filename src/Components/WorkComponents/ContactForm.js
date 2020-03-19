@@ -1,4 +1,5 @@
 import React from "react";
+import "../../App";
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -12,18 +13,26 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <form
-        onSubmit={this.submitForm}
-        action="https://formspree.io/xgekygyg"
-        method="POST"
-      >
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+      <div className="prime-div">
+        <div className="sec-div">
+          <form
+            onSubmit={this.submitForm}
+            action="https://formspree.io/xgekygyg"
+            method="POST"
+          >
+            <label>Email:</label>
+            <br />
+            <input type="email" name="email" className="email-field" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea type="text" name="message" className="react-field" />
+            <br />
+            {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
+        </div>
+      </div>
     );
   }
 

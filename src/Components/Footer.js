@@ -19,22 +19,28 @@ function Footer() {
             <Col className="col-sm-12 col-md-12 col-lg-4">
               <p className="services">Contact Me: </p>
               <p className="services">PH: (615)669-5552‬</p>
-              <p>
-                <a href="mailto:aedevdesigns@gmail.com?subject=Let's Connect!">
+              <p className="services">
+                <a
+                  className="services"
+                  href="mailto:aedevdesigns@gmail.com?subject=Let's Connect!"
+                >
                   aedevdesigns@gmail.com
                 </a>
               </p>
               <Container>
-                <a href="https://twitter.com/Kr4knB8" className="pr-1">
+                <a href="https://twitter.com/Kr4knB8" className="pr-1 services">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
                 <a
                   href="https://github.com/AEDesigns?tab=repositories"
-                  className="pr-1"
+                  className="pr-1 services"
                 >
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
-                <a href="https://www.linkedin.com/in/andrew-elliott-501008163/">
+                <a
+                  href="https://www.linkedin.com/in/andrew-elliott-501008163/"
+                  className="services"
+                >
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
               </Container>
@@ -50,30 +56,46 @@ function Footer() {
             </Col>
             <Col className="col-sm-12 col-md-12 col-lg-4 mx-auto">
               <p className="services">Proudly Serving:</p>
-              <ul className="ul-styles mx-auto text-center">
-                <li>
-                  <a href="#">Nashville</a>
+              <ul className="ul-styles mx-auto text-center services">
+                <li className="services">
+                  <a href="#" className="services">
+                    Nashville
+                  </a>
                 </li>
                 <li>
-                  <a href="#">The 'Boro</a>
+                  <a href="#" className="services">
+                    The 'Boro
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Mt. Juliet</a>
+                  <a href="#" className="services">
+                    Mt. Juliet
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Brentwood</a>
+                  <a href="#" className="services">
+                    Brentwood
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Franklin</a>
+                  <a href="#" className="services">
+                    Franklin
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Cookeville</a>
+                  <a href="#" className="services">
+                    Cookeville
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Chattanooga</a>
+                  <a href="#" className="services">
+                    Chattanooga
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Clarksville</a>
+                  <a href="#" className="services">
+                    Clarksville
+                  </a>
                 </li>
               </ul>
             </Col>

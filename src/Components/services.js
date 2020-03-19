@@ -62,7 +62,7 @@ export default class Services extends React.Component {
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <Link to="/design-and-dev">See some of our works</Link>
+                      <Link to="/design-and-dev">See some of my works</Link>
                     </Card.Footer>
                   </Card>
                 </Col>

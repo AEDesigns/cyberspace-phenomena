@@ -12,22 +12,24 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation />
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <Navigation />
 
-        <Switch>
-          <Route path="/Contact">
-            <Contact />
-          </Route>
-          <Route path="/development">
-            <Development />
-          </Route>
-          <Route path="/design-and-dev">
-            <DesignAndDev />
-          </Route>
-          <Route path="/">
-            <Services />
-          </Route>
-        </Switch>
+          <Switch>
+            <Route path="/Contact">
+              <Contact />
+            </Route>
+            <Route path="/development">
+              <Development />
+            </Route>
+            <Route path="/design-and-dev">
+              <DesignAndDev />
+            </Route>
+            <Route path="/">
+              <Services />
+            </Route>
+          </Switch>
+        </div>
       </Router>
     </div>
   );

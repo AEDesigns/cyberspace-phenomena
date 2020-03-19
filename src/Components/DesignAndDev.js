@@ -1,53 +1,49 @@
+/* eslint-disable no-undef */
 import React from "react";
-import { Jumbotron, Display4, Col, Row, Container } from "bootstrap-4-react";
+import { Jumbotron, Display1, Row } from "bootstrap-4-react";
 import Footer from "./Footer";
 import LathropInsurance from "./WorkComponents/Lathrop";
 import MrFormalAz from "./WorkComponents/MrFormalAz";
 import LottzProp from "./WorkComponents/LottzProp";
 import Interstudy from "./WorkComponents/Interstudy";
 import AeDesigns from "./WorkComponents/AeDesigns";
+import Fade from "react-reveal/Fade";
 
 function DesignAndDev() {
   return (
     <div>
       <Jumbotron>
-        <Display4 className="text-center">Our Works</Display4>
+        <Display1 className="text-center">My Works</Display1>
       </Jumbotron>
-      <Container>
-        <Col>
-          <Row>
-            <LathropInsurance />
-          </Row>
-        </Col>
-      </Container>
-      <Container className="mt-2">
-        <Col>
-          <Row>
-            <MrFormalAz />
-          </Row>
-        </Col>
-      </Container>
-      <Container className="mt-2">
-        <Col>
-          <Row>
-            <LottzProp />
-          </Row>
-        </Col>
-      </Container>
-      <Container className="mt-2">
-        <Col>
-          <Row>
-            <Interstudy />
-          </Row>
-        </Col>
-      </Container>
-      <Container className="mt-2">
-        <Col>
-          <Row>
-            <AeDesigns />
-          </Row>
-        </Col>
-      </Container>
+      <Fade up>
+        <Row style={{ marginLeft: "10px" }}>
+          <LathropInsurance />
+        </Row>
+        <hr className="solid-line" />
+      </Fade>
+      <Fade right>
+        <Row style={{ marginLeft: "10px" }}>
+          <MrFormalAz />
+        </Row>
+        <hr className="solid-line" />
+      </Fade>
+      <Fade right>
+        <Row style={{ marginLeft: "10px" }}>
+          <LottzProp />
+        </Row>
+        <hr className="solid-line" />
+      </Fade>
+      <Fade right>
+        <Row style={{ marginLeft: "10px" }}>
+          <Interstudy />
+        </Row>
+        <hr className="solid-line" />
+      </Fade>
+      <Fade right>
+        <Row style={{ marginLeft: "10px" }}>
+          <AeDesigns />
+        </Row>
+      </Fade>
       <Footer />
     </div>
   );

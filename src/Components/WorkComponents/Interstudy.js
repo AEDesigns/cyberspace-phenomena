@@ -7,28 +7,27 @@ export default class Interstudy extends React.Component {
     return (
       <div>
         <Container>
-          <h2 className="text-center">Interstudy - Franklin, Tn</h2>
           <Row>
             <Col className="col-sm-12 col-md-12 col-lg-6">
               <img
                 src={require("../../Imgs/Interstudy/Interstudy_Logo_Horizontal.png")}
                 width="400"
                 height="auto"
-                className="d-inline-block align-top img-responsive"
+                className="d-inline-block align-top img-responsive mobile-img"
                 alt="Interstudy"
               />
               <img
                 src={require("../../Imgs/Interstudy/Home-screen-1.PNG")}
                 width="400"
-                height="200"
-                className="d-inline-block align-top mt-4 img-responsive hov-img"
+                height="auto"
+                className="d-inline-block align-top mt-4 img-responsive hov-img mobile-img"
                 alt="Interstudy Home Page"
               />
               <img
                 src={require("../../Imgs/Interstudy/home-screen-2.PNG")}
                 width="400"
-                height="200"
-                className="d-inline-block align-top mt-4 img-responsive hov-img"
+                height="auto"
+                className="d-inline-block align-top mt-4 img-responsive hov-img mobile-img"
                 alt="Interstudy Contact Form"
               />
             </Col>

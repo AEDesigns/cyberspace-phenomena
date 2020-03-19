@@ -1,14 +1,14 @@
 /* General Styles */
 .services {
-  color: #9B30FF
+  color: #9b30ff;
 }
 
 .nav-div {
-  max-width: 100%;
+  width: 100vw;
 }
 
 .hov-img:hover {
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 
 /* Typewriter Styles */
@@ -22,7 +22,7 @@
 
 /* Nav Styles */
 .nav-link {
-  color: #9B30FF !important;
+  color: #9b30ff !important;
   font-size: 20px !important;
 }
 
@@ -35,6 +35,13 @@
   color: white !important;
 }
 
+.solid-line {
+  background-color: #9b30ff;
+  height: 1px;
+  border: 0;
+  width: 50%;
+}
+
 /* Call To Action Styles */
 
 .Call-To-Action {
@@ -45,7 +52,7 @@
 }
 
 .cont-div {
-  text-align: center
+  text-align: center;
 }
 
 .cta-header {
@@ -79,6 +86,24 @@
   list-style-type: none;
 }
 
+/* Contact Form Styles */
+.prime-div {
+  text-align: center;
+}
+
+.sec-div {
+  display: inline-block;
+}
+
+.email-field {
+  width: 250px;
+}
+
+.react-field {
+  width: 500px;
+  height: 150px;
+}
+
 /* Mobile Styles */
 
 @media only screen and (max-width: 321px) {
@@ -89,8 +114,9 @@
     text-align: center;
   }
 
-  .nav-div {
-    max-width: 100%;
+  .mobile-img {
+    width: 100vw;
+    height: auto;
   }
 }
 
@@ -101,10 +127,6 @@
     background-color: #7851a9;
     text-align: center;
   }
-
-  .nav-div {
-    max-width: 100%;
-  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -113,9 +135,5 @@
     width: 100vw;
     background-color: #7851a9;
     text-align: center;
-  }
-
-  .nav-div {
-    max-width: 100%;
   }
 }

@@ -8,27 +8,26 @@ export default class LathropInsurance extends React.Component {
       <div>
         <Container>
           <Row>
-            <h1 className="mx-auto">Lathrop Insurance - Westerly, RI</h1>
             <Col className="col-sm-12 col-md-12 col-lg-6">
               <img
                 src={require("../../Imgs/Lathrop-logo.png")}
                 width="400"
-                height="200"
-                className="d-inline-block align-top mt-4 img-responsive"
+                height="auto"
+                className="d-inline-block align-top mt-4 img-responsive mobile-img"
                 alt="Lathrop Insurance Logo"
               />
               <img
                 src={require("../../Imgs/Lathrop-home-screen-2.png")}
                 width="400"
-                height="200"
-                className="d-inline-block align-top mt-4 img-responsive hov-img"
+                height="auto"
+                className="d-inline-block align-top mt-4 img-responsive hov-img mobile-img"
                 alt="Lathrop Insurance Services On Home Page"
               />
               <img
                 src={require("../../Imgs/lathrop-serving.png")}
                 width="400"
-                height="200"
-                className="d-inline-block align-top mt-4 img-responsive hov-img"
+                height="auto"
+                className="d-inline-block align-top mt-4 img-responsive hov-img mobile-img"
                 alt="Lathrop Insurance Services Page"
               />
             </Col>
