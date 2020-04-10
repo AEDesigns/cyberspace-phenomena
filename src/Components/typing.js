@@ -69,7 +69,7 @@ export default class Typing extends React.Component {
             href=""
             class="typewrite"
             data-period="2000"
-            data-type='[ "Business Driven Design", "Search Engine Optimization", "Email Marketing & Development", "Website Design & Development" ]'
+            data-type='["Website Design & Development", "ADA Compliance", "Search Engine Optimization", "Twitch Digital Assets", "Email Development", "Custom Software Development"]'
           >
             <span class="wrap"></span>
           </a>

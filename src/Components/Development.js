@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import { Link } from "react-router-dom";
 import { Jumbotron, Display4, Lead } from "bootstrap-4-react";
 

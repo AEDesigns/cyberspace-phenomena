@@ -20,7 +20,7 @@ export default class Services extends React.Component {
           fluid
           style={{
             backgroundImage: `url(${jumboImg})`,
-            backgroundSize: "cover"
+            backgroundSize: "cover",
           }}
         >
           <Display4 className="text-center jmbo-style">
@@ -30,11 +30,10 @@ export default class Services extends React.Component {
             <Typing />
           </Lead>
           <hr className="my-4" />
-          <p className="text-center jmbo-style">
-            Find out below how I can help your business grow!
-          </p>
         </Jumbotron>
-        <h2 className="text-center services">What I have to offer:</h2>
+        <h2 className="text-center services">
+          Find out below how I can help your business grow!
+        </h2>
         <section className="services">
           <br />
           <Container>
@@ -109,6 +108,98 @@ export default class Services extends React.Component {
                           disabilities is not only the right thing to do, it's
                           the law. My projects follow ADA AA Compliance
                           standards, meaning a seamless experience for all.
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                      <Card.Link href="#">Card Link</Card.Link>
+                    </Card.Footer>
+                  </Card>
+                </Col>
+              </Row>
+            </Fade>
+          </Container>
+        </section>
+        <section className="services">
+          <br />
+          <Container>
+            <Fade bottom>
+              <Row>
+                <Col className="col-sm-12 col-md-12 col-lg-4">
+                  <Card style={{ width: "18rem" }}>
+                    <FontAwesomeIcon
+                      icon={faCode}
+                      size="3x"
+                      className="mx-auto pt-3"
+                    />
+                    <Card.Body>
+                      <Card.Title className="text-center">
+                        Twitch Digital Assets
+                      </Card.Title>
+                      <Card.Text>
+                        <p>
+                          Emotes, Overlays and more! We can help streamers
+                          spruce up their communities with stunning, pixel
+                          perfect graphics. Our Graphic Designers are experts at
+                          helping you engage with your viewers.Check out our
+                          total streamer package for an amazing deal.
+                        </p>
+                        <p className="space"></p>
+                      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                      <Link to="/design-and-dev">
+                        See some of our Emotes and More!
+                      </Link>
+                    </Card.Footer>
+                  </Card>
+                </Col>
+                <Col className="col-sm-12 col-md-12 col-lg-4">
+                  <Card style={{ width: "18rem" }}>
+                    <FontAwesomeIcon
+                      icon={faGoogle}
+                      size="3x"
+                      className="mx-auto pt-3"
+                    />
+                    <Card.Body>
+                      <Card.Title className="text-center ">
+                        Custom Development
+                      </Card.Title>
+                      <Card.Text>
+                        <p>
+                          So you've got the next big idea that'll be bigger than
+                          Amazon and Facebook but you're unsure of how to
+                          develop such a behemoth. Luckily, our developers can
+                          handle everything from website development to full
+                          stack applications and e-commerce websites.
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                      <Card.Link href="#">Software Development</Card.Link>
+                    </Card.Footer>
+                  </Card>
+                </Col>
+                <Col className="col-sm-12 col-md-12 col-lg-4">
+                  <Card style={{ width: "18rem" }}>
+                    <FontAwesomeIcon
+                      icon={faAccessibleIcon}
+                      size="3x"
+                      className="mx-auto pt-3"
+                    />
+                    <Card.Body>
+                      <Card.Title className="text-center">
+                        Email Development
+                      </Card.Title>
+                      <Card.Text>
+                        <p></p>
+                        <p>
+                          Email marketing is always an important cornerstone of
+                          your business, so your emails need to be up to snuff.
+                          We can build custom emails that are viable on all of
+                          the major clients(including Google, Yahoo and
+                          Hotmail), mobile responsive, break the mold and are
+                          100% accessible.
                         </p>
                       </Card.Text>
                     </Card.Body>

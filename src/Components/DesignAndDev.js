@@ -2,6 +2,7 @@
 import React from "react";
 import { Jumbotron, Display1, Row } from "bootstrap-4-react";
 import Footer from "./Footer";
+import "../App.css";
 import LathropInsurance from "./WorkComponents/Lathrop";
 import MrFormalAz from "./WorkComponents/MrFormalAz";
 import LottzProp from "./WorkComponents/LottzProp";
